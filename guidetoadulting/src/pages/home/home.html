@@ -1,0 +1,48 @@
+<ion-header>
+
+    <ion-navbar >
+        <button ion-button menuToggle >
+            <ion-icon name="menu"></ion-icon>
+          </button>
+      <ion-title align="center" bg-style1>The Guide To Adulting</ion-title>
+      <ion-buttons end (click)="goToSettingsPage()">
+            <button ion-button icon-only>
+              <ion-icon name="settings"></ion-icon>
+            </button>
+          </ion-buttons>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content align-content="center" class="bg-style">
+      <div class="card card-1" (click)="goToFinancialPage()">
+          <h3 align="center">Financial Advice/Finances</h3>
+          <img src="assets/imgs/dollar.jpg" alt="Laundry" height="150" width="150">
+          <h4 align="center"> How to handle your money 101! </h4>
+      </div>
+      <div class="card card-2" (click)="goToCookingPage()">
+          <h3 align="center">Cooking and Bartending</h3>
+          <img src="assets/imgs/cook.jpg" alt="Laundry" height="135" width="200">
+          <h4 align="center"> Easy food and drink recipes! </h4>
+      </div>
+      <div class="card card-3" (click)="goToHealthPage()">
+              <h3 align="center">Health and Wellness </h3>
+              <img src="assets/imgs/hw.png" alt="Laundry" height="150" width="250">
+              <h4 align="center"> Tips to help you live a longer and healthier life!</h4>
+      </div>
+      <div class="card card-4" (click)="goToEverydayPage()">
+              <h3 align="center">Everyday Skills</h3>
+              <img src="assets/imgs/l.jpg" alt="Laundry" height="150" width="200">
+              <h4 align="center"> Tips and Tricks for Everyday Life! </h4>
+      </div>
+      <div class="card card-5" (click)="goToEmergencyPage()">
+              <h3 align="center">Emergencies</h3>
+              <img src="assets/imgs/he.webp" alt="Laundry" height="135" width="300">
+              <h4 align="center"> What to do in different types of emergency situations! </h4>
+      </div>
+ 
+  </ion-content>
+  
+
+  
